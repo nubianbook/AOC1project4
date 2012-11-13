@@ -12,6 +12,7 @@
 {
     
     UITextField *textField;
+    UILabel *infoLabel;
     
 }
 

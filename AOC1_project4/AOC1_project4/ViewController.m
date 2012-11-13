@@ -95,7 +95,7 @@
         infoLabel.textColor = [UIColor blackColor];
         infoLabel.textAlignment =  NSTextAlignmentLeft;
         [self.view addSubview:infoLabel];
-        
+        infoLabel.hidden = YES;
     
     //My Login button
         UIButton *button = [UIButton buttonWithType: UIButtonTypeRoundedRect];
