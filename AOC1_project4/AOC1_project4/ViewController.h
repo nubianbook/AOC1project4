@@ -10,11 +10,13 @@
 
 @interface ViewController : UIViewController
 {
-    
+    NSString *userText, *labelText;
     UITextField *textField;
-    UILabel *infoLabel;
-    
+    UILabel *userViewLabel, *infoLabel, *label;
+    UIButton *dateButton, *infoButton;
 }
+
+- (void)textFieldShouldReturn:(UITextField *) inputField;
 
 -(void)onClick:(UIButton *)button;
 
